@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-	//float is used for decimal values
-	float a,sqrt;
-	cout<<"enter a number";
-	cin>>a;
-	cout<<"Square root of number is  "<<sqrt(a);
+	int a,b,c;
+	cout<<"Enter two numbers";
+	cin>>a>>b;
+	c=a+b;
+	cout<<"Addition of two numbers is  "<<c;
 	return 0;
 	
 }
